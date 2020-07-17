@@ -20,5 +20,16 @@
   "dependencies": {
     "split": "^1.0.0",
     "through": "^2.3.8"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxlath/start-from.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxlath/start-from/issues"
+  },
+  "homepage": "https://github.com/maxlath/start-from#readme"
 }
