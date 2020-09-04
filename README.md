@@ -13,4 +13,9 @@ cat ./some_file | start-from "some pattern"
 ```
 
 ## Alternative
-It's probably possible to do that with a tool like [`awk`](https://en.wikipedia.org/wiki/AWK), but I coudln't figure it out: if you know how, please enlighten me! :)
+The case can be done with grep, by abusing the `--after-context` option:
+```
+# Set 'infinity' to more than the number of lines in your file
+infinity=1000000000000
+cat ./some_file | grep "some pattern" --after-context $infinity
+```
