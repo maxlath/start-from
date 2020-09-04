@@ -1,6 +1,6 @@
 {
   "name": "start-from",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Command-line tool to ignore lines of a stream until a line matches a given pattern, typically to resume an operation from the point where it stopped",
   "main": "index.js",
   "bin": {
